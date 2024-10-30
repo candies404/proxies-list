@@ -11,13 +11,6 @@
 - 📎 一键复制代理信息
 - 🔄 实时刷新数据
 
-## 技术栈
-
-- Cloudflare Workers
-- 原生 JavaScript
-- HTML5 + CSS3
-- Webshare.io API
-
 ## 部署
 
 1. 注册/登录 [Cloudflare Dashboard](https://dash.cloudflare.com)
@@ -32,6 +25,12 @@
    名称：API_KEY
    值：your-webshare-api-token
    ```
+
+## 页面截图
+### PC端
+![image](https://github.com/user-attachments/assets/fa243a0b-914e-41c8-baa9-35260385eb1e)
+### 移动端
+![0b487d456e61bad7c48000b4cf81c65](https://github.com/user-attachments/assets/84b5a3d1-4e2a-4cd6-9f95-f8fad86b49c9)
 
 ## 开发
 
@@ -125,6 +124,13 @@ GET /api/proxies
 
 1. 需要有效的 Webshare.io API Key [点击获取](https://dashboard.webshare.io/userapi/keys)
 2. 部署时请确保环境变量正确配置
+
+## 技术栈
+
+- Cloudflare Workers
+- 原生 JavaScript
+- HTML5 + CSS3
+- Webshare.io API
 
 ## 开发说明
 
